@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D341C3219A2DE25002D0659 /* EducationalMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D341C3119A2DE25002D0659 /* EducationalMedia.m */; };
+		3D341C3519A2DE3F002D0659 /* Socializing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D341C3419A2DE3F002D0659 /* Socializing.m */; };
+		3D341C3819A2DE4D002D0659 /* Walkers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D341C3719A2DE4D002D0659 /* Walkers.m */; };
+		3D341C3B19A2DE70002D0659 /* NoRoll.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D341C3A19A2DE70002D0659 /* NoRoll.m */; };
+		3D341C3E19A2DE82002D0659 /* NoTalk.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D341C3D19A2DE82002D0659 /* NoTalk.m */; };
+		3D341C4219A2F189002D0659 /* GreenMucus.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D341C4119A2F189002D0659 /* GreenMucus.m */; };
+		3D341C4519A2F19E002D0659 /* Teething.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D341C4419A2F19E002D0659 /* Teething.m */; };
+		3D341C4B19A2F1CF002D0659 /* ColdMedicine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D341C4A19A2F1CF002D0659 /* ColdMedicine.m */; };
+		3D341C4E19A2F263002D0659 /* MilkMucus.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D341C4D19A2F263002D0659 /* MilkMucus.m */; };
+		3D341C5219A2FB04002D0659 /* MMR.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D341C5119A2FB04002D0659 /* MMR.m */; };
+		3D341C5519A2FB18002D0659 /* Flushot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D341C5419A2FB18002D0659 /* Flushot.m */; };
+		3D341C5819A2FB2F002D0659 /* ImmuneSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D341C5719A2FB2F002D0659 /* ImmuneSystem.m */; };
+		3D341C5B19A2FB42002D0659 /* Spacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D341C5A19A2FB42002D0659 /* Spacing.m */; };
+		3D341C5E19A2FB53002D0659 /* VaccineEffective.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D341C5D19A2FB53002D0659 /* VaccineEffective.m */; };
+		3D341C6119A2FB62002D0659 /* VaccineSafety.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D341C6019A2FB62002D0659 /* VaccineSafety.m */; };
+		3D4B0247199CDA2100577DA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4B0246199CDA2100577DA0 /* Foundation.framework */; };
+		3D4B0249199CDA2100577DA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4B0248199CDA2100577DA0 /* CoreGraphics.framework */; };
+		3D4B024B199CDA2100577DA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4B024A199CDA2100577DA0 /* UIKit.framework */; };
+		3D4B0251199CDA2100577DA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D4B024F199CDA2100577DA0 /* InfoPlist.strings */; };
+		3D4B0253199CDA2100577DA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B0252199CDA2100577DA0 /* main.m */; };
+		3D4B0257199CDA2100577DA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B0256199CDA2100577DA0 /* AppDelegate.m */; };
+		3D4B025D199CDA2200577DA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B025C199CDA2200577DA0 /* ViewController.m */; };
+		3D4B025F199CDA2200577DA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4B025E199CDA2200577DA0 /* Images.xcassets */; };
+		3D4B0266199CDA2200577DA0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4B0265199CDA2200577DA0 /* XCTest.framework */; };
+		3D4B0267199CDA2200577DA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4B0246199CDA2100577DA0 /* Foundation.framework */; };
+		3D4B0268199CDA2200577DA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4B024A199CDA2100577DA0 /* UIKit.framework */; };
+		3D4B0270199CDA2200577DA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D4B026E199CDA2200577DA0 /* InfoPlist.strings */; };
+		3D4B0272199CDA2200577DA0 /* Myths2014Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B0271199CDA2200577DA0 /* Myths2014Tests.m */; };
+		3D4B027D199CF49B00577DA0 /* SleepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B027C199CF49B00577DA0 /* SleepViewController.m */; };
+		3D4B0280199CF4B200577DA0 /* AllergyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B027F199CF4B200577DA0 /* AllergyViewController.m */; };
+		3D4B0283199CF52500577DA0 /* DevelopmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B0282199CF52500577DA0 /* DevelopmentViewController.m */; };
+		3D4B0286199CF53900577DA0 /* IllnessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B0285199CF53900577DA0 /* IllnessViewController.m */; };
+		3D4B0289199CF54000577DA0 /* VaccineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B0288199CF54000577DA0 /* VaccineViewController.m */; };
+		3D4B028C199CF54E00577DA0 /* SkinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B028B199CF54E00577DA0 /* SkinViewController.m */; };
+		3D4B028F199CF57A00577DA0 /* EatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B028E199CF57A00577DA0 /* EatingViewController.m */; };
+		3D4B0292199CF58A00577DA0 /* BreastfeedingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B0291199CF58A00577DA0 /* BreastfeedingViewController.m */; };
+		3D57710919A3AFC5002C2AF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D57710819A3AFC5002C2AF7 /* Main.storyboard */; };
+		3D5813D119A18B6800571722 /* PopularEating.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5813D019A18B6800571722 /* PopularEating.m */; };
+		3D5813D419A18B8100571722 /* EnergyDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5813D319A18B8100571722 /* EnergyDrink.m */; };
+		3D5813D719A18B8F00571722 /* MomsDiet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5813D619A18B8F00571722 /* MomsDiet.m */; };
+		3D5813DA19A18BC500571722 /* CureforColic.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5813D919A18BC500571722 /* CureforColic.m */; };
+		3D5813DD19A18BE800571722 /* BottleFed.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5813DC19A18BE800571722 /* BottleFed.m */; };
+		3D5813E019A18C2000571722 /* RiceCerealSolidFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5813DF19A18C2000571722 /* RiceCerealSolidFood.m */; };
+		3DCA7C4B19A1254200C576DE /* MomCold.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA7C4A19A1254200C576DE /* MomCold.m */; };
+		3DCA7C4E19A1256400C576DE /* ExtraWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA7C4D19A1256400C576DE /* ExtraWater.m */; };
+		3DCA7C5219A176A300C576DE /* Cosleeping.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA7C5119A176A300C576DE /* Cosleeping.m */; };
+		3DCA7C5519A176B400C576DE /* TwelveHours.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA7C5419A176B400C576DE /* TwelveHours.m */; };
+		3DCA7C5819A176CD00C576DE /* Needtonap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA7C5719A176CD00C576DE /* Needtonap.m */; };
+		3DCA7C5B19A176E600C576DE /* SleepSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA7C5A19A176E600C576DE /* SleepSchedule.m */; };
+		3DCA7C5E19A176F900C576DE /* Bassinet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA7C5D19A176F900C576DE /* Bassinet.m */; };
+		3DCA7C6119A1771500C576DE /* Ricecereal.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA7C6019A1771500C576DE /* Ricecereal.m */; };
+		3DF112B919A35FF7005F2B52 /* Tan.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF112B819A35FF7005F2B52 /* Tan.m */; };
+		3DF112BD19A362BC005F2B52 /* Pets.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF112BC19A362BC005F2B52 /* Pets.m */; };
+		3DF112C019A362D1005F2B52 /* Eggs.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF112BF19A362D1005F2B52 /* Eggs.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D4B0269199CDA2200577DA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D4B023B199CDA2100577DA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D4B0242199CDA2100577DA0;
+			remoteInfo = Myths2014;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D341C3019A2DE25002D0659 /* EducationalMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EducationalMedia.h; sourceTree = "<group>"; };
+		3D341C3119A2DE25002D0659 /* EducationalMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EducationalMedia.m; sourceTree = "<group>"; };
+		3D341C3319A2DE3F002D0659 /* Socializing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Socializing.h; sourceTree = "<group>"; };
+		3D341C3419A2DE3F002D0659 /* Socializing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Socializing.m; sourceTree = "<group>"; };
+		3D341C3619A2DE4D002D0659 /* Walkers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Walkers.h; sourceTree = "<group>"; };
+		3D341C3719A2DE4D002D0659 /* Walkers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Walkers.m; sourceTree = "<group>"; };
+		3D341C3919A2DE70002D0659 /* NoRoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoRoll.h; sourceTree = "<group>"; };
+		3D341C3A19A2DE70002D0659 /* NoRoll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoRoll.m; sourceTree = "<group>"; };
+		3D341C3C19A2DE82002D0659 /* NoTalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoTalk.h; sourceTree = "<group>"; };
+		3D341C3D19A2DE82002D0659 /* NoTalk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoTalk.m; sourceTree = "<group>"; };
+		3D341C4019A2F189002D0659 /* GreenMucus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GreenMucus.h; path = ../GreenMucus.h; sourceTree = "<group>"; };
+		3D341C4119A2F189002D0659 /* GreenMucus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GreenMucus.m; path = ../GreenMucus.m; sourceTree = "<group>"; };
+		3D341C4319A2F19E002D0659 /* Teething.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Teething.h; path = ../Teething.h; sourceTree = "<group>"; };
+		3D341C4419A2F19E002D0659 /* Teething.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Teething.m; path = ../Teething.m; sourceTree = "<group>"; };
+		3D341C4919A2F1CF002D0659 /* ColdMedicine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColdMedicine.h; path = ../ColdMedicine.h; sourceTree = "<group>"; };
+		3D341C4A19A2F1CF002D0659 /* ColdMedicine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColdMedicine.m; path = ../ColdMedicine.m; sourceTree = "<group>"; };
+		3D341C4C19A2F263002D0659 /* MilkMucus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MilkMucus.h; path = ../MilkMucus.h; sourceTree = "<group>"; };
+		3D341C4D19A2F263002D0659 /* MilkMucus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MilkMucus.m; path = ../MilkMucus.m; sourceTree = "<group>"; };
+		3D341C5019A2FB04002D0659 /* MMR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMR.h; sourceTree = "<group>"; };
+		3D341C5119A2FB04002D0659 /* MMR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMR.m; sourceTree = "<group>"; };
+		3D341C5319A2FB18002D0659 /* Flushot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flushot.h; sourceTree = "<group>"; };
+		3D341C5419A2FB18002D0659 /* Flushot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flushot.m; sourceTree = "<group>"; };
+		3D341C5619A2FB2F002D0659 /* ImmuneSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImmuneSystem.h; sourceTree = "<group>"; };
+		3D341C5719A2FB2F002D0659 /* ImmuneSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImmuneSystem.m; sourceTree = "<group>"; };
+		3D341C5919A2FB42002D0659 /* Spacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spacing.h; sourceTree = "<group>"; };
+		3D341C5A19A2FB42002D0659 /* Spacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spacing.m; sourceTree = "<group>"; };
+		3D341C5C19A2FB53002D0659 /* VaccineEffective.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VaccineEffective.h; sourceTree = "<group>"; };
+		3D341C5D19A2FB53002D0659 /* VaccineEffective.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VaccineEffective.m; sourceTree = "<group>"; };
+		3D341C5F19A2FB62002D0659 /* VaccineSafety.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VaccineSafety.h; sourceTree = "<group>"; };
+		3D341C6019A2FB62002D0659 /* VaccineSafety.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VaccineSafety.m; sourceTree = "<group>"; };
+		3D4B0243199CDA2100577DA0 /* Myths2014.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myths2014.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4B0246199CDA2100577DA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D4B0248199CDA2100577DA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D4B024A199CDA2100577DA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D4B024E199CDA2100577DA0 /* Myths2014-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Myths2014-Info.plist"; sourceTree = "<group>"; };
+		3D4B0250199CDA2100577DA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D4B0252199CDA2100577DA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D4B0254199CDA2100577DA0 /* Myths2014-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Myths2014-Prefix.pch"; sourceTree = "<group>"; };
+		3D4B0255199CDA2100577DA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D4B0256199CDA2100577DA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D4B025B199CDA2100577DA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D4B025C199CDA2200577DA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D4B025E199CDA2200577DA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D4B0264199CDA2200577DA0 /* Myths2014Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Myths2014Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4B0265199CDA2200577DA0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3D4B026D199CDA2200577DA0 /* Myths2014Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Myths2014Tests-Info.plist"; sourceTree = "<group>"; };
+		3D4B026F199CDA2200577DA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D4B0271199CDA2200577DA0 /* Myths2014Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Myths2014Tests.m; sourceTree = "<group>"; };
+		3D4B027B199CF49B00577DA0 /* SleepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepViewController.h; sourceTree = "<group>"; };
+		3D4B027C199CF49B00577DA0 /* SleepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepViewController.m; sourceTree = "<group>"; };
+		3D4B027E199CF4B200577DA0 /* AllergyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllergyViewController.h; sourceTree = "<group>"; };
+		3D4B027F199CF4B200577DA0 /* AllergyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllergyViewController.m; sourceTree = "<group>"; };
+		3D4B0281199CF52500577DA0 /* DevelopmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevelopmentViewController.h; sourceTree = "<group>"; };
+		3D4B0282199CF52500577DA0 /* DevelopmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevelopmentViewController.m; sourceTree = "<group>"; };
+		3D4B0284199CF53900577DA0 /* IllnessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IllnessViewController.h; sourceTree = "<group>"; };
+		3D4B0285199CF53900577DA0 /* IllnessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IllnessViewController.m; sourceTree = "<group>"; };
+		3D4B0287199CF54000577DA0 /* VaccineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VaccineViewController.h; sourceTree = "<group>"; };
+		3D4B0288199CF54000577DA0 /* VaccineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VaccineViewController.m; sourceTree = "<group>"; };
+		3D4B028A199CF54E00577DA0 /* SkinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkinViewController.h; sourceTree = "<group>"; };
+		3D4B028B199CF54E00577DA0 /* SkinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkinViewController.m; sourceTree = "<group>"; };
+		3D4B028D199CF57A00577DA0 /* EatingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EatingViewController.h; sourceTree = "<group>"; };
+		3D4B028E199CF57A00577DA0 /* EatingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EatingViewController.m; sourceTree = "<group>"; };
+		3D4B0290199CF58A00577DA0 /* BreastfeedingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreastfeedingViewController.h; sourceTree = "<group>"; };
+		3D4B0291199CF58A00577DA0 /* BreastfeedingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreastfeedingViewController.m; sourceTree = "<group>"; };
+		3D57710819A3AFC5002C2AF7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../Downloads/Main.storyboard; sourceTree = "<group>"; };
+		3D5813CF19A18B6800571722 /* PopularEating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopularEating.h; sourceTree = "<group>"; };
+		3D5813D019A18B6800571722 /* PopularEating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopularEating.m; sourceTree = "<group>"; };
+		3D5813D219A18B8100571722 /* EnergyDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnergyDrink.h; sourceTree = "<group>"; };
+		3D5813D319A18B8100571722 /* EnergyDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnergyDrink.m; sourceTree = "<group>"; };
+		3D5813D519A18B8F00571722 /* MomsDiet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomsDiet.h; sourceTree = "<group>"; };
+		3D5813D619A18B8F00571722 /* MomsDiet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomsDiet.m; sourceTree = "<group>"; };
+		3D5813D819A18BC500571722 /* CureforColic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CureforColic.h; sourceTree = "<group>"; };
+		3D5813D919A18BC500571722 /* CureforColic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CureforColic.m; sourceTree = "<group>"; };
+		3D5813DB19A18BE800571722 /* BottleFed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottleFed.h; sourceTree = "<group>"; };
+		3D5813DC19A18BE800571722 /* BottleFed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottleFed.m; sourceTree = "<group>"; };
+		3D5813DE19A18C2000571722 /* RiceCerealSolidFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiceCerealSolidFood.h; sourceTree = "<group>"; };
+		3D5813DF19A18C2000571722 /* RiceCerealSolidFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiceCerealSolidFood.m; sourceTree = "<group>"; };
+		3DCA7C4919A1254200C576DE /* MomCold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomCold.h; sourceTree = "<group>"; };
+		3DCA7C4A19A1254200C576DE /* MomCold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomCold.m; sourceTree = "<group>"; };
+		3DCA7C4C19A1256400C576DE /* ExtraWater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtraWater.h; sourceTree = "<group>"; };
+		3DCA7C4D19A1256400C576DE /* ExtraWater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtraWater.m; sourceTree = "<group>"; };
+		3DCA7C5019A176A300C576DE /* Cosleeping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cosleeping.h; sourceTree = "<group>"; };
+		3DCA7C5119A176A300C576DE /* Cosleeping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cosleeping.m; sourceTree = "<group>"; };
+		3DCA7C5319A176B400C576DE /* TwelveHours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwelveHours.h; sourceTree = "<group>"; };
+		3DCA7C5419A176B400C576DE /* TwelveHours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwelveHours.m; sourceTree = "<group>"; };
+		3DCA7C5619A176CD00C576DE /* Needtonap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Needtonap.h; sourceTree = "<group>"; };
+		3DCA7C5719A176CD00C576DE /* Needtonap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Needtonap.m; sourceTree = "<group>"; };
+		3DCA7C5919A176E600C576DE /* SleepSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepSchedule.h; sourceTree = "<group>"; };
+		3DCA7C5A19A176E600C576DE /* SleepSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepSchedule.m; sourceTree = "<group>"; };
+		3DCA7C5C19A176F900C576DE /* Bassinet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bassinet.h; sourceTree = "<group>"; };
+		3DCA7C5D19A176F900C576DE /* Bassinet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bassinet.m; sourceTree = "<group>"; };
+		3DCA7C5F19A1771500C576DE /* Ricecereal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ricecereal.h; sourceTree = "<group>"; };
+		3DCA7C6019A1771500C576DE /* Ricecereal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ricecereal.m; sourceTree = "<group>"; };
+		3DF112B719A35FF7005F2B52 /* Tan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tan.h; sourceTree = "<group>"; };
+		3DF112B819A35FF7005F2B52 /* Tan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tan.m; sourceTree = "<group>"; };
+		3DF112BB19A362BC005F2B52 /* Pets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pets.h; sourceTree = "<group>"; };
+		3DF112BC19A362BC005F2B52 /* Pets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pets.m; sourceTree = "<group>"; };
+		3DF112BE19A362D1005F2B52 /* Eggs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eggs.h; sourceTree = "<group>"; };
+		3DF112BF19A362D1005F2B52 /* Eggs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Eggs.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D4B0240199CDA2100577DA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4B0249199CDA2100577DA0 /* CoreGraphics.framework in Frameworks */,
+				3D4B024B199CDA2100577DA0 /* UIKit.framework in Frameworks */,
+				3D4B0247199CDA2100577DA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4B0261199CDA2200577DA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4B0266199CDA2200577DA0 /* XCTest.framework in Frameworks */,
+				3D4B0268199CDA2200577DA0 /* UIKit.framework in Frameworks */,
+				3D4B0267199CDA2200577DA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D341C2E19A2DBF0002D0659 /* Eating Myths Section */ = {
+			isa = PBXGroup;
+			children = (
+				3D5813CF19A18B6800571722 /* PopularEating.h */,
+				3D5813D019A18B6800571722 /* PopularEating.m */,
+				3D5813D219A18B8100571722 /* EnergyDrink.h */,
+				3D5813D319A18B8100571722 /* EnergyDrink.m */,
+				3D5813D519A18B8F00571722 /* MomsDiet.h */,
+				3D5813D619A18B8F00571722 /* MomsDiet.m */,
+				3D5813D819A18BC500571722 /* CureforColic.h */,
+				3D5813D919A18BC500571722 /* CureforColic.m */,
+				3D5813DB19A18BE800571722 /* BottleFed.h */,
+				3D5813DC19A18BE800571722 /* BottleFed.m */,
+				3D5813DE19A18C2000571722 /* RiceCerealSolidFood.h */,
+				3D5813DF19A18C2000571722 /* RiceCerealSolidFood.m */,
+				3D4B028D199CF57A00577DA0 /* EatingViewController.h */,
+				3D4B028E199CF57A00577DA0 /* EatingViewController.m */,
+			);
+			name = "Eating Myths Section";
+			sourceTree = "<group>";
+		};
+		3D341C2F19A2DDE4002D0659 /* Development Myths Section */ = {
+			isa = PBXGroup;
+			children = (
+				3D4B0281199CF52500577DA0 /* DevelopmentViewController.h */,
+				3D4B0282199CF52500577DA0 /* DevelopmentViewController.m */,
+				3D341C3019A2DE25002D0659 /* EducationalMedia.h */,
+				3D341C3119A2DE25002D0659 /* EducationalMedia.m */,
+				3D341C3319A2DE3F002D0659 /* Socializing.h */,
+				3D341C3419A2DE3F002D0659 /* Socializing.m */,
+				3D341C3619A2DE4D002D0659 /* Walkers.h */,
+				3D341C3719A2DE4D002D0659 /* Walkers.m */,
+				3D341C3919A2DE70002D0659 /* NoRoll.h */,
+				3D341C3A19A2DE70002D0659 /* NoRoll.m */,
+				3D341C3C19A2DE82002D0659 /* NoTalk.h */,
+				3D341C3D19A2DE82002D0659 /* NoTalk.m */,
+			);
+			name = "Development Myths Section";
+			sourceTree = "<group>";
+		};
+		3D341C3F19A2F14B002D0659 /* Illness Myths Section */ = {
+			isa = PBXGroup;
+			children = (
+				3D341C4C19A2F263002D0659 /* MilkMucus.h */,
+				3D341C4D19A2F263002D0659 /* MilkMucus.m */,
+				3D341C4919A2F1CF002D0659 /* ColdMedicine.h */,
+				3D341C4A19A2F1CF002D0659 /* ColdMedicine.m */,
+				3D341C4319A2F19E002D0659 /* Teething.h */,
+				3D341C4419A2F19E002D0659 /* Teething.m */,
+				3D341C4019A2F189002D0659 /* GreenMucus.h */,
+				3D341C4119A2F189002D0659 /* GreenMucus.m */,
+				3D4B0284199CF53900577DA0 /* IllnessViewController.h */,
+				3D4B0285199CF53900577DA0 /* IllnessViewController.m */,
+			);
+			name = "Illness Myths Section";
+			sourceTree = "<group>";
+		};
+		3D341C4F19A2FAE3002D0659 /* Vaccine Myths Section */ = {
+			isa = PBXGroup;
+			children = (
+				3D341C5019A2FB04002D0659 /* MMR.h */,
+				3D341C5119A2FB04002D0659 /* MMR.m */,
+				3D341C5319A2FB18002D0659 /* Flushot.h */,
+				3D341C5419A2FB18002D0659 /* Flushot.m */,
+				3D341C5619A2FB2F002D0659 /* ImmuneSystem.h */,
+				3D341C5719A2FB2F002D0659 /* ImmuneSystem.m */,
+				3D341C5919A2FB42002D0659 /* Spacing.h */,
+				3D341C5A19A2FB42002D0659 /* Spacing.m */,
+				3D341C5C19A2FB53002D0659 /* VaccineEffective.h */,
+				3D341C5D19A2FB53002D0659 /* VaccineEffective.m */,
+				3D341C5F19A2FB62002D0659 /* VaccineSafety.h */,
+				3D341C6019A2FB62002D0659 /* VaccineSafety.m */,
+				3D4B0287199CF54000577DA0 /* VaccineViewController.h */,
+				3D4B0288199CF54000577DA0 /* VaccineViewController.m */,
+			);
+			name = "Vaccine Myths Section";
+			sourceTree = "<group>";
+		};
+		3D4B023A199CDA2100577DA0 = {
+			isa = PBXGroup;
+			children = (
+				3D4B024C199CDA2100577DA0 /* Myths2014 */,
+				3D4B026B199CDA2200577DA0 /* Myths2014Tests */,
+				3D4B0245199CDA2100577DA0 /* Frameworks */,
+				3D4B0244199CDA2100577DA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D4B0244199CDA2100577DA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D4B0243199CDA2100577DA0 /* Myths2014.app */,
+				3D4B0264199CDA2200577DA0 /* Myths2014Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D4B0245199CDA2100577DA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D4B0246199CDA2100577DA0 /* Foundation.framework */,
+				3D4B0248199CDA2100577DA0 /* CoreGraphics.framework */,
+				3D4B024A199CDA2100577DA0 /* UIKit.framework */,
+				3D4B0265199CDA2200577DA0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D4B024C199CDA2100577DA0 /* Myths2014 */ = {
+			isa = PBXGroup;
+			children = (
+				3D57710819A3AFC5002C2AF7 /* Main.storyboard */,
+				3D4B0255199CDA2100577DA0 /* AppDelegate.h */,
+				3D4B0256199CDA2100577DA0 /* AppDelegate.m */,
+				3D4B025B199CDA2100577DA0 /* ViewController.h */,
+				3D4B025C199CDA2200577DA0 /* ViewController.m */,
+				3DD3CF5D19A39DBE00C016AC /* Allergy Myth Section */,
+				3DF112BA19A361E5005F2B52 /* Skin Myths Section */,
+				3D341C4F19A2FAE3002D0659 /* Vaccine Myths Section */,
+				3D341C3F19A2F14B002D0659 /* Illness Myths Section */,
+				3D341C2F19A2DDE4002D0659 /* Development Myths Section */,
+				3D341C2E19A2DBF0002D0659 /* Eating Myths Section */,
+				3D5813CE19A18AAE00571722 /* Sleep Myths Section */,
+				3DCA7C4F19A1388B00C576DE /* Breastfeeding Myths Chapter */,
+				3D4B025E199CDA2200577DA0 /* Images.xcassets */,
+				3D4B024D199CDA2100577DA0 /* Supporting Files */,
+			);
+			path = Myths2014;
+			sourceTree = "<group>";
+		};
+		3D4B024D199CDA2100577DA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D4B024E199CDA2100577DA0 /* Myths2014-Info.plist */,
+				3D4B024F199CDA2100577DA0 /* InfoPlist.strings */,
+				3D4B0252199CDA2100577DA0 /* main.m */,
+				3D4B0254199CDA2100577DA0 /* Myths2014-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D4B026B199CDA2200577DA0 /* Myths2014Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3D4B0271199CDA2200577DA0 /* Myths2014Tests.m */,
+				3D4B026C199CDA2200577DA0 /* Supporting Files */,
+			);
+			path = Myths2014Tests;
+			sourceTree = "<group>";
+		};
+		3D4B026C199CDA2200577DA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D4B026D199CDA2200577DA0 /* Myths2014Tests-Info.plist */,
+				3D4B026E199CDA2200577DA0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D5813CE19A18AAE00571722 /* Sleep Myths Section */ = {
+			isa = PBXGroup;
+			children = (
+				3DCA7C5019A176A300C576DE /* Cosleeping.h */,
+				3DCA7C5119A176A300C576DE /* Cosleeping.m */,
+				3DCA7C5319A176B400C576DE /* TwelveHours.h */,
+				3DCA7C5419A176B400C576DE /* TwelveHours.m */,
+				3DCA7C5619A176CD00C576DE /* Needtonap.h */,
+				3DCA7C5719A176CD00C576DE /* Needtonap.m */,
+				3DCA7C5919A176E600C576DE /* SleepSchedule.h */,
+				3DCA7C5A19A176E600C576DE /* SleepSchedule.m */,
+				3DCA7C5C19A176F900C576DE /* Bassinet.h */,
+				3DCA7C5D19A176F900C576DE /* Bassinet.m */,
+				3DCA7C5F19A1771500C576DE /* Ricecereal.h */,
+				3DCA7C6019A1771500C576DE /* Ricecereal.m */,
+				3D4B027B199CF49B00577DA0 /* SleepViewController.h */,
+				3D4B027C199CF49B00577DA0 /* SleepViewController.m */,
+			);
+			name = "Sleep Myths Section";
+			sourceTree = "<group>";
+		};
+		3DCA7C4F19A1388B00C576DE /* Breastfeeding Myths Chapter */ = {
+			isa = PBXGroup;
+			children = (
+				3D4B0290199CF58A00577DA0 /* BreastfeedingViewController.h */,
+				3D4B0291199CF58A00577DA0 /* BreastfeedingViewController.m */,
+				3DCA7C4919A1254200C576DE /* MomCold.h */,
+				3DCA7C4A19A1254200C576DE /* MomCold.m */,
+				3DCA7C4C19A1256400C576DE /* ExtraWater.h */,
+				3DCA7C4D19A1256400C576DE /* ExtraWater.m */,
+			);
+			name = "Breastfeeding Myths Chapter";
+			sourceTree = "<group>";
+		};
+		3DD3CF5D19A39DBE00C016AC /* Allergy Myth Section */ = {
+			isa = PBXGroup;
+			children = (
+				3DF112BB19A362BC005F2B52 /* Pets.h */,
+				3DF112BC19A362BC005F2B52 /* Pets.m */,
+				3DF112BE19A362D1005F2B52 /* Eggs.h */,
+				3DF112BF19A362D1005F2B52 /* Eggs.m */,
+				3D4B027E199CF4B200577DA0 /* AllergyViewController.h */,
+				3D4B027F199CF4B200577DA0 /* AllergyViewController.m */,
+			);
+			name = "Allergy Myth Section";
+			sourceTree = "<group>";
+		};
+		3DF112BA19A361E5005F2B52 /* Skin Myths Section */ = {
+			isa = PBXGroup;
+			children = (
+				3DF112B719A35FF7005F2B52 /* Tan.h */,
+				3DF112B819A35FF7005F2B52 /* Tan.m */,
+				3D4B028A199CF54E00577DA0 /* SkinViewController.h */,
+				3D4B028B199CF54E00577DA0 /* SkinViewController.m */,
+			);
+			name = "Skin Myths Section";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D4B0242199CDA2100577DA0 /* Myths2014 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4B0275199CDA2200577DA0 /* Build configuration list for PBXNativeTarget "Myths2014" */;
+			buildPhases = (
+				3D4B023F199CDA2100577DA0 /* Sources */,
+				3D4B0240199CDA2100577DA0 /* Frameworks */,
+				3D4B0241199CDA2100577DA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Myths2014;
+			productName = Myths2014;
+			productReference = 3D4B0243199CDA2100577DA0 /* Myths2014.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D4B0263199CDA2200577DA0 /* Myths2014Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4B0278199CDA2200577DA0 /* Build configuration list for PBXNativeTarget "Myths2014Tests" */;
+			buildPhases = (
+				3D4B0260199CDA2200577DA0 /* Sources */,
+				3D4B0261199CDA2200577DA0 /* Frameworks */,
+				3D4B0262199CDA2200577DA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D4B026A199CDA2200577DA0 /* PBXTargetDependency */,
+			);
+			name = Myths2014Tests;
+			productName = Myths2014Tests;
+			productReference = 3D4B0264199CDA2200577DA0 /* Myths2014Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D4B023B199CDA2100577DA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mobile Makers";
+				TargetAttributes = {
+					3D4B0263199CDA2200577DA0 = {
+						TestTargetID = 3D4B0242199CDA2100577DA0;
+					};
+				};
+			};
+			buildConfigurationList = 3D4B023E199CDA2100577DA0 /* Build configuration list for PBXProject "Myths2014" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D4B023A199CDA2100577DA0;
+			productRefGroup = 3D4B0244199CDA2100577DA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D4B0242199CDA2100577DA0 /* Myths2014 */,
+				3D4B0263199CDA2200577DA0 /* Myths2014Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D4B0241199CDA2100577DA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4B025F199CDA2200577DA0 /* Images.xcassets in Resources */,
+				3D4B0251199CDA2100577DA0 /* InfoPlist.strings in Resources */,
+				3D57710919A3AFC5002C2AF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4B0262199CDA2200577DA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4B0270199CDA2200577DA0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D4B023F199CDA2100577DA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D341C3E19A2DE82002D0659 /* NoTalk.m in Sources */,
+				3D341C5519A2FB18002D0659 /* Flushot.m in Sources */,
+				3D4B028F199CF57A00577DA0 /* EatingViewController.m in Sources */,
+				3D5813D119A18B6800571722 /* PopularEating.m in Sources */,
+				3D341C3B19A2DE70002D0659 /* NoRoll.m in Sources */,
+				3D4B0292199CF58A00577DA0 /* BreastfeedingViewController.m in Sources */,
+				3D4B0286199CF53900577DA0 /* IllnessViewController.m in Sources */,
+				3DCA7C4B19A1254200C576DE /* MomCold.m in Sources */,
+				3DCA7C5819A176CD00C576DE /* Needtonap.m in Sources */,
+				3D5813DA19A18BC500571722 /* CureforColic.m in Sources */,
+				3D341C4B19A2F1CF002D0659 /* ColdMedicine.m in Sources */,
+				3D341C5E19A2FB53002D0659 /* VaccineEffective.m in Sources */,
+				3D5813DD19A18BE800571722 /* BottleFed.m in Sources */,
+				3D341C3219A2DE25002D0659 /* EducationalMedia.m in Sources */,
+				3D341C3819A2DE4D002D0659 /* Walkers.m in Sources */,
+				3D341C3519A2DE3F002D0659 /* Socializing.m in Sources */,
+				3D341C4E19A2F263002D0659 /* MilkMucus.m in Sources */,
+				3D4B027D199CF49B00577DA0 /* SleepViewController.m in Sources */,
+				3D4B0289199CF54000577DA0 /* VaccineViewController.m in Sources */,
+				3DF112BD19A362BC005F2B52 /* Pets.m in Sources */,
+				3D4B025D199CDA2200577DA0 /* ViewController.m in Sources */,
+				3D4B0257199CDA2100577DA0 /* AppDelegate.m in Sources */,
+				3D5813D419A18B8100571722 /* EnergyDrink.m in Sources */,
+				3D341C5819A2FB2F002D0659 /* ImmuneSystem.m in Sources */,
+				3D5813D719A18B8F00571722 /* MomsDiet.m in Sources */,
+				3DCA7C6119A1771500C576DE /* Ricecereal.m in Sources */,
+				3D4B0280199CF4B200577DA0 /* AllergyViewController.m in Sources */,
+				3DCA7C5E19A176F900C576DE /* Bassinet.m in Sources */,
+				3D5813E019A18C2000571722 /* RiceCerealSolidFood.m in Sources */,
+				3DCA7C5519A176B400C576DE /* TwelveHours.m in Sources */,
+				3D341C5219A2FB04002D0659 /* MMR.m in Sources */,
+				3DF112C019A362D1005F2B52 /* Eggs.m in Sources */,
+				3D341C4219A2F189002D0659 /* GreenMucus.m in Sources */,
+				3D341C6119A2FB62002D0659 /* VaccineSafety.m in Sources */,
+				3D4B028C199CF54E00577DA0 /* SkinViewController.m in Sources */,
+				3DCA7C5219A176A300C576DE /* Cosleeping.m in Sources */,
+				3D4B0283199CF52500577DA0 /* DevelopmentViewController.m in Sources */,
+				3D341C5B19A2FB42002D0659 /* Spacing.m in Sources */,
+				3D4B0253199CDA2100577DA0 /* main.m in Sources */,
+				3DF112B919A35FF7005F2B52 /* Tan.m in Sources */,
+				3D341C4519A2F19E002D0659 /* Teething.m in Sources */,
+				3DCA7C5B19A176E600C576DE /* SleepSchedule.m in Sources */,
+				3DCA7C4E19A1256400C576DE /* ExtraWater.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4B0260199CDA2200577DA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4B0272199CDA2200577DA0 /* Myths2014Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D4B026A199CDA2200577DA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D4B0242199CDA2100577DA0 /* Myths2014 */;
+			targetProxy = 3D4B0269199CDA2200577DA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D4B024F199CDA2100577DA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D4B0250199CDA2100577DA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D4B026E199CDA2200577DA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D4B026F199CDA2200577DA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D4B0273199CDA2200577DA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D4B0274199CDA2200577DA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D4B0276199CDA2200577DA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Myths2014/Myths2014-Prefix.pch";
+				INFOPLIST_FILE = "Myths2014/Myths2014-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D4B0277199CDA2200577DA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Myths2014/Myths2014-Prefix.pch";
+				INFOPLIST_FILE = "Myths2014/Myths2014-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3D4B0279199CDA2200577DA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Myths2014.app/Myths2014";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Myths2014/Myths2014-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Myths2014Tests/Myths2014Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3D4B027A199CDA2200577DA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Myths2014.app/Myths2014";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Myths2014/Myths2014-Prefix.pch";
+				INFOPLIST_FILE = "Myths2014Tests/Myths2014Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D4B023E199CDA2100577DA0 /* Build configuration list for PBXProject "Myths2014" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4B0273199CDA2200577DA0 /* Debug */,
+				3D4B0274199CDA2200577DA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4B0275199CDA2200577DA0 /* Build configuration list for PBXNativeTarget "Myths2014" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4B0276199CDA2200577DA0 /* Debug */,
+				3D4B0277199CDA2200577DA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4B0278199CDA2200577DA0 /* Build configuration list for PBXNativeTarget "Myths2014Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4B0279199CDA2200577DA0 /* Debug */,
+				3D4B027A199CDA2200577DA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D4B023B199CDA2100577DA0 /* Project object */;
+}
